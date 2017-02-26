@@ -13,6 +13,9 @@ def append_json(user_hash)
   end
 end
 
+def read_json()
+  data_from_json = JSON[File.read('public/user.json')]
+end
 
 # Sandbox testing:
 # user_name = {"user_name" => "John"}
