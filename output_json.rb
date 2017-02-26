@@ -13,6 +13,7 @@ def append_json(user_hash)
   end
 end
 
+
 # Sandbox testing:
 # user_name = {"user_name" => "John"}
 # user_age = {"user_age" => "41"}
@@ -23,3 +24,7 @@ end
 # append_json(user_age)
 # append_json(numbers)
 # append_json(more_numbers)
+
+# data_from_json = JSON[File.read('public/user.json')]
+
+# p data_from_json
