@@ -1,7 +1,7 @@
 require 'sinatra'
 require_relative 'output_json.rb'
 
-class PersonalDetailsJSONApp < Sinatra::Base
+class PersonalDetailsJSONAppTesting < Sinatra::Base
 
   get "/" do
     erb :get_name

@@ -1,7 +1,7 @@
 {
-  "user_name": "John",
-  "user_age": "30",
-  "num_1": "1",
-  "num_2": "2",
-  "num_3": "3"
+  "user_name": "John Doe",
+  "user_age": "25",
+  "n1": "10",
+  "n2": "20",
+  "n3": "30"
 }

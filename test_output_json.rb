@@ -3,7 +3,7 @@ require "minitest/autorun"
 require_relative "output_json.rb"
 
 
-class TestWinningNumbers < Minitest::Test
+class TestOutputJSON < Minitest::Test
 
   def test_1_verify_data_output_to_new_json_file
     user_name = {"user_name" => "John Doe"}

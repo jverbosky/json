@@ -9,7 +9,7 @@ class TestApp < Minitest::Test
   include Rack::Test::Methods
 
   def app
-    PersonalDetailsJSONApp
+    PersonalDetailsJSONAppTesting
   end
 
   def test_get_entry_page
