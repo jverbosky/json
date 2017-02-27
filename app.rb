@@ -9,7 +9,7 @@ class PersonalDetailsJSONApp < Sinatra::Base
 
   post '/post_name' do
     user_hash = params[:user]  # assign the user hash to the user_hash variable
-    # "Got it: #{user_hash}"  # testing - validate the contents of user_hash (user_name only)
+    # "Got it: #{params}"  # testing - validate the contents of user_hash (user_name only)
     write_json(user_hash)  # save user_hash to a new JSON file (delete & re-create if already present)
     backend_name = user_hash["user_name"]  # get user_name from hash for listing in get_age.erb
     # "Thanks for the info: #{backend_name}"
